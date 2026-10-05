@@ -14,3 +14,15 @@ This script takes the chunks and combines it into one mp4 container with whole v
 3. Use the text file containing the file names of the video chunks to combine all chunks into one mp4
 4. do the same for audio chunks
 5. combine both video mp4 and audio mp4 to create an mp4 with both
+
+## how 2 use
+1. find where Steam Game Recordings are saved
+   - usually under ``/home/<user>/.local/share/Steam/userdata/<AccountID>/gamerecordings/<video/clips>/<recording type>_<AppID>_<date in YYYYMMDD>_<time in HHMMSS>/`` or wherever you set it to in Steam settings
+2. put the script where the recording data is, if you see m4s files in there you're in the right place
+3. execute
+
+be aware that you should have at least 2 times the size of the raw recording in free space
+- if recording is 20GB, make sure you have 40GB free
+
+## gotta figure out
+if adding microphone recording adds a 2nd audio stream or does it get saved in the gameplay audio stream
